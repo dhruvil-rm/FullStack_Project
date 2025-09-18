@@ -1,0 +1,119 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-container {
+  margin-top: 90px;
+  max-width: 500px;
+  padding: 25px;
+}
+
+.navbar {
+  background-color: #1a1a2e !important;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: #ff6f61 !important;
+}
+
+.navbar .nav-link {
+  color: #f5f5f5 !important;
+  transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+  color: #ff6f61 !important;
+}
+
+.btn-primary {
+  background-color: #ff6f61;
+  border-color: #ff6f61;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ff8577;
+  border-color: #ff8577;
+  transform: scale(1.05);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #34c759;
+  border-color: #34c759;
+  transform: scale(1.05);
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #e4606d;
+  border-color: #e4606d;
+  transform: scale(1.05);
+}
+
+.form-container a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+}
+
+.store-card {
+  background-color: #e8f0fe;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.store-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.btn-outline-warning {
+  border-color: #ffb400 !important;
+  color: #ffb400 !important;
+  transition: all 0.2s;
+}
+
+.btn-warning {
+  background-color: #ffb400 !important;
+  border-color: #ffb400 !important;
+  color: #fff !important;
+  transition: all 0.2s;
+}
+
+.btn-outline-warning:hover {
+  background-color: #ffb400 !important;
+  color: #fff !important;
+}
